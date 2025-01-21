@@ -97,6 +97,22 @@ body {
   cursor: pointer;
 }
 
+/* overlay */
+.overlay {
+  position: fixed;
+  background: #0000000e;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  z-index: -1;
+  left: 0;
+  display: none;
+}
+
+.show-overlay {
+  display: block;
+}
+
 /* ----------------- mobile --------------------- */
 
 @media (width < 600px) {
